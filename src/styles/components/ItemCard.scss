@@ -1,0 +1,92 @@
+.ItemCard__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  width: 95%;
+  height: 20rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  border: 1px solid rgb(206, 198, 188);
+
+  @media (min-width: 600px) {
+    height: 23rem;
+    width: 23rem;
+    margin: 1rem;
+  }
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.162);
+  }
+
+  .ItemCard__img__container {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0.5rem;
+
+    @media (min-width: 600px) {
+      margin-top: 2rem;
+      height: 200px;
+      width: 200px;
+    }
+  }
+  .ItemCard__img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .ItemCard__title {
+    color: rgb(47, 101, 104);
+    margin: 0.5rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+  }
+
+  .ItemCard__info {
+    display: flex;
+    width: 100%;
+    margin: 1rem;
+    align-items: center;
+    justify-content: space-around;
+
+    @media (min-width: 600px) {
+      margin: 2rem;
+    }
+  }
+
+  .ItemCard__info__countdown {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .ItemCard__button {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(47, 101, 104);
+    color: rgb(47, 101, 104);
+    border-radius: 10px;
+    height: 2.3rem;
+    width: 8rem;
+
+    &:hover {
+      background: rgb(228, 125, 93);
+      border: 1px solid rgb(228, 125, 93);
+      color: rgb(255, 255, 255);
+    }
+  }
+
+  .ItemCard__button--disabled {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(224, 217, 208);
+    color: rgb(224, 217, 208);
+    border-radius: 10px;
+    height: 2.3rem;
+    width: 8rem;
+  }
+}

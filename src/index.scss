@@ -1,0 +1,17 @@
+/* base */
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+}
+
+@import url(./styles/base/Normalize.scss);
+
+/* pages */
+@import url(./styles/Home.scss);
+@import url(./styles/ProductDetail.scss);
+@import url(./styles/About.scss);
+
+/* components */
+@import url(./styles/components/Header.scss);
+@import url(./styles/components/Spinner.scss);
+@import url(./styles/components/ItemCard.scss);
