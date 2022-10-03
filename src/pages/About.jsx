@@ -25,7 +25,7 @@ const About = () => {
           </p>
           <div className='About__profile__aditional'>
             <span>zap.noah@gmail.com</span>
-            <a href=''>
+            <a href='https://github.com/noahzapata'>
               <img
                 className='About__profile__icon'
                 src={gitHub}
